@@ -10,7 +10,11 @@
 
 ## Utilitários
 
-### Criação de pastas
+### Remove 
+
+### Criar diretório
+
+> mkdir = (m)a(k)e (dir)ectory
 
 ```bash
 > mkdir nome-da-pasta
@@ -22,7 +26,9 @@
   > mkdir Projects
   ``` 
 
-### Navegar para um diretório
+### Mudar de diretório
+
+> cd = (c)hange (d)iretory
 
 ```bash
 > cd nome-do-diretorio
@@ -32,6 +38,46 @@
 
   ```bash
   > cd Projects
+  ``` 
+
+### Descobrir o usário atual
+
+```bash
+> whoami
+``` 
+
+### Listagem dos diretório
+
+* Listagem dos nomes dos diretórios
+  ```bash
+  > ls
+  ``` 
+
+* Listagem dos diretórios (+ detalhado)
+  ```bash
+  > ls -l
+  ``` 
+  
+* Listagem dos diretórios ocultos
+  ```bash
+  > ls -la
+  ``` 
+
+* OBS
+  * `.` = diretório atual
+  * `..` = diretório anterior  
+  * diretórios que comecem com `.` são ocultados
+
+### Ajuda sobre um comando (o que ele faz / quais opções são aceitas)
+
+```bash
+> man nome_do_comando
+``` 
+
+* Exemplo
+
+  ```bash
+  > man ls
   ``` 
 
 ## Aparência
@@ -57,3 +103,9 @@
   > cp -r flat-remix/Flat-Remix* ~/.icons/ && cp -r flat-remix-gtk/Flat-Remix-GTK* ~/.themes/
   ```
 
+* Instalando o nome-tweak-tool
+  ```bash
+  > sudo apt install gnome-tweak-tool fonts-hack-ttf -y
+  ```
+* Basta seguir as instruções para a troca do tema: [guia](https://www.osradar.com/install-flat-remix-theme-ubuntu/)
+  
