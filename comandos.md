@@ -10,6 +10,18 @@
 
 ## Utilitários
 
+### Exibir o caminho completo de um recurso 
+
+```bash
+> which nome-do-recurso
+``` 
+
+* Exemplo
+
+  ```bash
+  > which echo
+  ``` 
+
 ### Caminho completo do diretório atual
 
 > pwd = (p)rint (w)orking (d)irectory
