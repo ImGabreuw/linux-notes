@@ -10,7 +10,28 @@
 
 ## Utilitários
 
-### Remove 
+### Caminho completo do diretório atual
+
+> pwd = (p)rint (w)orking (d)irectory
+
+```bash
+> pwd
+``` 
+
+* Exemplo
+
+  * Entrada
+    ```bash
+    > pwd
+    ``` 
+    
+  * Saída
+    ```bash
+    > /home/gabriel/Projects
+    ``` 
+  
+
+### Remover 
 
 > rm = (r)e(m)ove
 
@@ -46,12 +67,24 @@
 > cd nome-do-diretorio
 ``` 
 
+```bash
+> cd variável-de-ambiente
+``` 
+
 * Exemplo
 
   ```bash
   > cd Projects
   ``` 
 
+  ```bash
+  > cd $HOME
+  OU
+  > cd ~
+  ``` 
+  
+  > OBS: `~` (Tilde Expansion) faz referência à variável `$HOME`
+  
 ### Descobrir o usário atual
 
 ```bash
