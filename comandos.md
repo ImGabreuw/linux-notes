@@ -12,6 +12,18 @@
 
 ### Remove 
 
+> rm = (r)e(m)ove
+
+```bash
+> rm nome-da-pasta
+``` 
+
+* Exemplo
+
+  ```bash
+  > rm Projects
+  ``` 
+
 ### Criar diretório
 
 > mkdir = (m)a(k)e (dir)ectory
