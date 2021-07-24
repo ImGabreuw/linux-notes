@@ -23,3 +23,7 @@ Solução: `$ sudo chown <usuário>:<group> <arquivo>` (**Exemplo**: `$ sudo cho
   sudo apt-get update
   sudo apt-get upgrade
   ```
+  
+### Instalar drivers Nvidia
+
+* **Fonte**: [diolinux](https://diolinux.com.br/sistemas-operacionais/como-instalar-drivers-nvidia-ubuntu-tutorial.html)
