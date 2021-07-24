@@ -9,3 +9,17 @@
 ### Permissão negada para editar o arquivo `go.mod` (sincronização de dependências)
 
 Solução: `$ sudo chown <usuário>:<group> <arquivo>` (**Exemplo**: `$ sudo chown gabriel:gabriel go.mod`)
+
+### Corrigir pacotes quebrados
+
+* **Fonte**: [viva o linux](https://www.vivaolinux.com.br/topico/Duvidas-frequentes/-IMPOSSIVEL-CORRIGIR-PROBLEMAS-VOCE-MANTEVE-HOLD-PACOTES-QUEBRADOS)
+
+* **Solução**
+  
+  ```shell
+  sudo dpkg --configure -a
+  sudo apt-get -f install
+  sudo apt-get -f remove
+  sudo apt-get update
+  sudo apt-get upgrade
+  ```
